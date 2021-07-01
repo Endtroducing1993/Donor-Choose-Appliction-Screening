@@ -22,36 +22,38 @@ From EDA we observe that teachers with prefix Mrs. has maximum number of project
 In acceptance teachers with prefix Mrs. and Ms. have maximum approval rate. Whereas teacher with prefix Dr. and Teacher have the least approval rate.
 
 **Project Grade Category:** 
+
 Project Grade Category	 project_is_approved	total	Avg
 Grades PreK-2	37536	44225	0.848751
-![image](https://user-images.githubusercontent.com/61081294/124124659-58851b80-da96-11eb-88a1-de9004b89791.png)
+ Grades 3-5 	31729	37137	0.854377
+Grades 6-8 	14258	16923	0.842522
+Grades 9-12	9183	10963	0.837636
+![image](https://user-images.githubusercontent.com/61081294/124124898-9e41e400-da96-11eb-9c59-164885abf31f.png)
 
-
-project_grade_category              project_is_approved                    total                      Avg
-3          Grades PreK-2                37536                              44225                   0.848751
-0             Grades 3-5                31729                              37137                   0.854377
-1             Grades 6-8                14258                              16923                   0.842522
-2            Grades 9-12                9183                               10963                    0.837636
 
 From above data we observe that Grades PreK-2 has maximum number of submissions whereas Grades 9-12 has least. Also we observe that 
 
 **Project_subject_categories:**
 
-0                    Literacy & Language
-1      History & Civics, Health & Sports
-2                        Health & Sports
-3    Literacy & Language, Math & Science
-4                         Math & Science
+Literacy & Language
+History & Civics, Health & Sports
+Health & Sports
+Literacy & Language, Math & Science
+Math & Science
+![image](https://user-images.githubusercontent.com/61081294/124125035-c92c3800-da96-11eb-9df6-2e82232ed4af.png)
+
 
 
 Before analysing the above categories we firstly preprocess the categories by removing the spaces, ‘&’ and ‘The’ word. Also we have replaced & with ‘_’ .After preprocessing now we analyse it.
 
-                 clean_categories                  project_is_approved                     total           Avg
-24               Literacy_Language                      20520                              23655         0.867470
-32                    Math_Science                      13991                              17072         0.819529
-28  Literacy_Language Math_Science                      12725                              14636         0.869432
-8                    Health_Sports                       8640                              10177         0.848973
-40                      Music_Arts                       4429                               5180         0.855019
+ clean_categories 	project_is_approved	  total           	Avg
+Literacy_Language      	20520	23655	0.86747
+Math_Science                      13991                              17072         0.819529	13991	17072	0.819529
+Literacy_Language Math_Science                      	12725	14636	0.869432
+Health_Sports                     	8640	10177	0.848973
+Music_Arts                       	4429	5180	0.855019
+![image](https://user-images.githubusercontent.com/61081294/124125439-3b9d1800-da97-11eb-94d2-eb3810195137.png)
+
 
 Here we observe that percentage approval varies amongst categories. But percentage of submission is hughes in literacy_langauge category
 
@@ -59,26 +61,30 @@ Project_subject_subcategories:
 
 We first preprocess the subcategories and analyse it afterwards.
 
-EarlyDevelopment      :      4254
-ESL                   :      4367
-Gym_Fitness           :      4509
-EnvironmentalScience  :      5591
-VisualArts            :      6278
-Health_Wellness       :      10234
-AppliedSciences       :      10816
-SpecialNeeds          :      13642
-Literature_Writing    :      22179
-Mathematics           :      28074
-Literacy              :      33700
+EarlyDevelopment  	4254
+ESL                  	4367
+Gym_Fitness              	4509
+EnvironmentalScience  	5591
+VisualArts            	6278
+Health_Wellness          	10234
+AppliedSciences       	10816
+SpecialNeeds             	13642
+Literature_Writing      	22179
+Mathematics             	28074
+Literacy             	33700
+![image](https://user-images.githubusercontent.com/61081294/124125690-8c147580-da97-11eb-94e2-d930c70338d5.png)
+
 
 After analysing project_subject_subcategory feature we get the below results:
 
-               clean_subcategories                       project_is_approved          total             Avg
-317              Literacy                                       8371                   9486             0.882458                                     
-319             Literacy Mathematics                            7260                   8325             0.872072
-331             Literature_Writing Mathematics                  5140                   5923             0.867803
-318             Literacy Literature_Writing                     4823                   5571             0.865733
-342             Mathematics                                     4385                   5379             0.815207
+           clean_subcategories   	project_is_approved          	total            	 Avg
+Literacy                                                                        	8371	9486	0.882458
+Literacy Mathematics  	7260	8325	0.872072
+Literature_Writing Mathematics                  	5140	5923	0.867803
+Literacy Literature_Writing                     	4823	5571	0.865733
+Mathematics                                    	4385	5379	0.815207
+![image](https://user-images.githubusercontent.com/61081294/124126156-01804600-da98-11eb-87b4-d8fc2771b770.png)
+
 
 We observe that the project approval percentage varies amongst the categories. Literacy subcategory has the highest percentage of approval which is 88 percent and varies amongst the categories.
 
