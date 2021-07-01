@@ -22,6 +22,10 @@ From EDA we observe that teachers with prefix Mrs. has maximum number of project
 In acceptance teachers with prefix Mrs. and Ms. have maximum approval rate. Whereas teacher with prefix Dr. and Teacher have the least approval rate.
 
 **Project Grade Category:** 
+Project Grade Category	 project_is_approved	total	Avg
+Grades PreK-2	37536	44225	0.848751
+![image](https://user-images.githubusercontent.com/61081294/124124659-58851b80-da96-11eb-88a1-de9004b89791.png)
+
 
 project_grade_category              project_is_approved                    total                      Avg
 3          Grades PreK-2                37536                              44225                   0.848751
