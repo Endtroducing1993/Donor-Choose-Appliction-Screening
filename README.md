@@ -23,11 +23,6 @@ In acceptance teachers with prefix Mrs. and Ms. have maximum approval rate. Wher
 
 **Project Grade Category:** 
 
-Project Grade Category	 project_is_approved	total	Avg
-Grades PreK-2	37536	44225	0.848751
- Grades 3-5 	31729	37137	0.854377
-Grades 6-8 	14258	16923	0.842522
-Grades 9-12	9183	10963	0.837636
 ![image](https://user-images.githubusercontent.com/61081294/124124898-9e41e400-da96-11eb-9c59-164885abf31f.png)
 
 
@@ -35,11 +30,7 @@ From above data we observe that Grades PreK-2 has maximum number of submissions 
 
 **Project_subject_categories:**
 
-Literacy & Language
-History & Civics, Health & Sports
-Health & Sports
-Literacy & Language, Math & Science
-Math & Science
+
 ![image](https://user-images.githubusercontent.com/61081294/124125035-c92c3800-da96-11eb-9df6-2e82232ed4af.png)
 
 
