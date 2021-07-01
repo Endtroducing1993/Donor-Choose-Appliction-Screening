@@ -46,12 +46,7 @@ Math & Science
 
 Before analysing the above categories we firstly preprocess the categories by removing the spaces, ‘&’ and ‘The’ word. Also we have replaced & with ‘_’ .After preprocessing now we analyse it.
 
- clean_categories 	project_is_approved	  total           	Avg
-Literacy_Language      	20520	23655	0.86747
-Math_Science                      13991                              17072         0.819529	13991	17072	0.819529
-Literacy_Language Math_Science                      	12725	14636	0.869432
-Health_Sports                     	8640	10177	0.848973
-Music_Arts                       	4429	5180	0.855019
+
 ![image](https://user-images.githubusercontent.com/61081294/124125439-3b9d1800-da97-11eb-94d2-eb3810195137.png)
 
 
@@ -61,29 +56,13 @@ Project_subject_subcategories:
 
 We first preprocess the subcategories and analyse it afterwards.
 
-EarlyDevelopment  	4254
-ESL                  	4367
-Gym_Fitness              	4509
-EnvironmentalScience  	5591
-VisualArts            	6278
-Health_Wellness          	10234
-AppliedSciences       	10816
-SpecialNeeds             	13642
-Literature_Writing      	22179
-Mathematics             	28074
-Literacy             	33700
+
 ![image](https://user-images.githubusercontent.com/61081294/124125690-8c147580-da97-11eb-94e2-d930c70338d5.png)
 
 
 After analysing project_subject_subcategory feature we get the below results:
 
-           clean_subcategories   	project_is_approved          	total            	 Avg
-Literacy                                                                        	8371	9486	0.882458
-Literacy Mathematics  	7260	8325	0.872072
-Literature_Writing Mathematics                  	5140	5923	0.867803
-Literacy Literature_Writing                     	4823	5571	0.865733
-Mathematics                                    	4385	5379	0.815207
-![image](https://user-images.githubusercontent.com/61081294/124126156-01804600-da98-11eb-87b4-d8fc2771b770.png)
+(https://user-images.githubusercontent.com/61081294/124126156-01804600-da98-11eb-87b4-d8fc2771b770.png)
 
 
 We observe that the project approval percentage varies amongst the categories. Literacy subcategory has the highest percentage of approval which is 88 percent and varies amongst the categories.
@@ -104,33 +83,6 @@ Same observation we have with essays. We observe that essays with more words ten
 **Cost per project:**
 
 Though we were not able to extract much information from bar and kde plots thus we resort to percentile values. In explanation, we obtained cost of approved and disapproved projects upto a certain percentile and we observed that the projects with higher cost tend to get rejected.
-
-Percentile | Approved Projects | Not Approved Projects |
-+------------+-------------------+-----------------------+
-|     0      |        0.66       |          1.97         |
-|     5      |       13.59       |          41.9         |
-|     10     |       33.88       |         73.67         |
-|     15     |        58.0       |         99.109        |
-|     20     |       77.38       |         118.56        |
-|     25     |       99.95       |        140.892        |
-|     30     |       116.68      |         162.23        |
-|     35     |      137.232      |        184.014        |
-|     40     |       157.0       |        208.632        |
-|     45     |      178.265      |        235.106        |
-|     50     |       198.99      |        263.145        |
-|     55     |       223.99      |         292.61        |
-|     60     |       255.63      |        325.144        |
-|     65     |      285.412      |         362.39        |
-|     70     |      321.225      |         399.99        |
-|     75     |      366.075      |        449.945        |
-|     80     |       411.67      |        519.282        |
-|     85     |       479.0       |        618.276        |
-|     90     |       593.11      |        739.356        |
-|     95     |      801.598      |        992.486        |
-|    100     |       9999.0      |         9999.0        |
-+------------+-------------------+-----------------------+
-
-
 
 **Previously Posted Projects:**
 
